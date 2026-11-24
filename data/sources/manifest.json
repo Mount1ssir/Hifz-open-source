@@ -1,0 +1,14 @@
+{
+  "urls": {
+    "quran-uthmani.txt": "https://tanzil.net/pub/download/index.php?quranType=uthmani&outType=txt-2&marks=true&sajdah=true&tatweel=true&agree=true",
+    "quran-data.xml": "https://tanzil.net/res/text/metadata/quran-data.xml",
+    "qpc-v1-15-lines.db.zip": "https://qul.tarteel.ai/resources/mushaf-layout/15",
+    "qpc-v1-glyph-codes-wbw.json.zip": "https://qul.tarteel.ai/resources/quran-script/57"
+  },
+  "sha256": {
+    "quran-uthmani.txt": "6933e133dd56db778c801bf738848454e43648105a151e8d84d86a7cae39ec5f",
+    "quran-data.xml": "8867c1d88191472adec9db694b3cd9f135b1a2ef580574d32cf888dcb22c5c7a",
+    "qpc-v1-15-lines.db.zip": "fb04bdfb0da38925853bc0ccdecd08b1536ac74fb1c8e9ff27a9af7ad7a452f9",
+    "qpc-v1-glyph-codes-wbw.json.zip": "a20e2cdf3d7604a4ad284b8832a567d50101282372c2626c9ced66d2febb4ff8"
+  }
+}

@@ -1,0 +1,25 @@
+Quranic Universal Library (QUL), maintained by Tarteel
+https://qul.tarteel.ai
+
+Printed line metadata derived from KFGQPC V1 layout (1405H print), resource 15,
+and QPC V1 Glyphs - Word by Word, resource 57.
+https://qul.tarteel.ai/resources/mushaf-layout/15
+https://qul.tarteel.ai/resources/quran-script/57
+
+Printed Quran rendering uses the matching QPC V1 per-page fonts (604 TTF files),
+provided through QUL resource 238. Downloaded on 19 November 2026.
+https://qul.tarteel.ai/resources/font/238
+https://static-cdn.tarteel.ai/qul/fonts/quran_fonts/v1-optimized/ttf/
+Checksums are pinned in data/sources/quran-fonts.json.
+
+Optional offline tajweed uses QCF V4 COLRv1 fonts and the corresponding
+code_v2 and v2_page word fields from Quran Foundation. Words follow the
+existing printed layout, using the source font page for each word.
+https://api-docs.quran.foundation/docs/tutorials/fonts/font-rendering/
+https://verses.quran.foundation/fonts/quran/hafs/v4/colrv1/ttf/
+https://api.quran.com/api/v4/verses/by_chapter/
+Importer: tool/import_tajweed.py. Checksums: data/sources/tajweed-sha256.json.
+
+Arabic tafsir: Tafsir al-Jalalayn by Jalal al-Din al-Mahalli and Jalal al-Din
+al-Suyuti. Digital edition ar.jalalayn from Al Quran Cloud, bundled by surah.
+https://api.alquran.cloud/v1/quran/ar.jalalayn
